@@ -1,4 +1,4 @@
-package com.cosa.di.core;
+package com.cosa.di.mapping;
 
 public interface IMapping {
     void configure();

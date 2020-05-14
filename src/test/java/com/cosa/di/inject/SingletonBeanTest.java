@@ -1,10 +1,8 @@
 package com.cosa.di.inject;
 
-import com.cosa.di.client.Prototype;
 import com.cosa.di.client.Singleton;
-import com.cosa.di.core.MappingTest;
+import com.cosa.di.mapping.MappingTest;
 import com.cosa.di.service.FirstService;
-import com.cosa.di.service.SecondService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -22,7 +20,7 @@ public class SingletonBeanTest {
     }
 
     @Test
-    public void testSingleton() throws Exception {
+    public void should_getSameInstanceForSingletonBean() throws Exception {
         injectHandling.injectInstance(Singleton.class);
         Object obj1 = injectHandling.getInstance(FirstService.class);
 

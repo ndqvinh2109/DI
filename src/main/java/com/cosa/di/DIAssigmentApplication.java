@@ -2,7 +2,7 @@ package com.cosa.di;
 
 import com.cosa.di.client.Singleton;
 import com.cosa.di.client.Prototype;
-import com.cosa.di.core.Mapping;
+import com.cosa.di.mapping.Mapping;
 import com.cosa.di.inject.InjectFactory;
 import com.cosa.di.inject.InjectHandling;
 

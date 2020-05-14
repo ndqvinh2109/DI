@@ -1,4 +1,4 @@
-package com.cosa.di.core;
+package com.cosa.di.mapping;
 
 import com.cosa.di.service.FirstService;
 import com.cosa.di.service.SecondService;

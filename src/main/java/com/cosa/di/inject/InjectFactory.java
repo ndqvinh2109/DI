@@ -1,6 +1,6 @@
 package com.cosa.di.inject;
 
-import com.cosa.di.core.IMapping;
+import com.cosa.di.mapping.IMapping;
 
 public class InjectFactory {
 

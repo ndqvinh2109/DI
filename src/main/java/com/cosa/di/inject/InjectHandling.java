@@ -1,12 +1,11 @@
 package com.cosa.di.inject;
 
-import com.cosa.di.core.IMapping;
+import com.cosa.di.mapping.IMapping;
 import com.cosa.di.enums.BeanScope;
 
 import java.lang.reflect.Constructor;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.concurrent.ConcurrentHashMap;
 
 public class InjectHandling {
 

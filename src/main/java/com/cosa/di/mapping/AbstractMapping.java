@@ -1,4 +1,4 @@
-package com.cosa.di.core;
+package com.cosa.di.mapping;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -7,7 +7,9 @@ public abstract class AbstractMapping implements IMapping {
 
     private Map<Class<?>, Class<?>> classMap = new HashMap<Class<?>, Class<?>>();
 
-    <T> void createMapping(Class<T> baseClass, Class<? extends T> subClass) {
+    public abstract void configure();
+
+    public <T> void createMapping(Class<T> baseClass, Class<? extends T> subClass) {
         classMap.put(baseClass, subClass.asSubclass(baseClass));
     }
 
