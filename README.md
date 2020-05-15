@@ -4,7 +4,7 @@
  - Inject dependency via constructor
  - Support spring bean scopes singleton and prototype
  
-## Class desgin
+## Class design
 
 AbstractMapping: a abstract class storing mapping between interface and subclass.
 InjectHandling: inject dependency and handling bean scope to configured constructor.
